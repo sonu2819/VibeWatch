@@ -222,7 +222,6 @@
 //   );
 // }
 
-
 import { useEffect, useState } from "react";
 
 import { db } from "../firebase";
@@ -568,12 +567,13 @@ export default function Chat({
 
           <div
             key={m.id}
-            className="chat-message"
+            className={`chat-message ${
+              m.userId === userId
+                ? "my-message"
+                : "other-message"
+            }`}
           >
-
-            <b>{m.user}:</b>{" "}
             {m.text}
-
           </div>
 
         ))}
