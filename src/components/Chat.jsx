@@ -750,13 +750,16 @@ export default function Chat({
   // =========================
   // ✅ AUTO SCROLL
   // =========================
-  useEffect(() => {
+useEffect(() => {
 
-    messagesEndRef.current?.scrollIntoView({
-      behavior: "smooth",
-    });
+  const el = messagesEndRef.current;
 
-  }, [messages]);
+  if (el) {
+    el.parentElement.scrollTop =
+      el.parentElement.scrollHeight;
+  }
+
+}, [messages]);
 
   // =========================
   // 🔥 USERS / PRESENCE
