@@ -1,14 +1,8 @@
 {
-  "redirects": [
+  "rewrites": [
     {
-      "source": "/",
-      "destination": "/maintenance.html",
-      "permanent": false
-    },
-    {
-      "source": "/:path((?!maintenance.html).*)",
-      "destination": "/maintenance.html",
-      "permanent": false
+      "source": "/(.*)",
+      "destination": "/"
     }
   ]
 }

@@ -22,38 +22,43 @@
 
 return (
   <><Helmet>
-  <title>WaveParty | Watch Videos Together Online</title>
+  <title>ShreeWave | Watch Videos Together Online</title>
 
   <meta
     name="description"
-    content="WaveParty lets you watch YouTube videos together with friends in real-time. Enjoy synced playback, live chat, and easy room sharing."
+    content="ShreeWave lets you watch YouTube videos together with friends in real-time. Enjoy synced playback, live chat, online presence, and easy room sharing."
   />
 
   <meta
     name="keywords"
-    content="WaveParty, watch together, YouTube sync, online watch party, synced videos, live chat"
+    content="ShreeWave, watch together, YouTube sync, online watch party, synced videos, live chat"
   />
 
-  <meta name="author" content="WaveParty" />
+  <meta name="author" content="ShreeWave" />
 
   <meta name="robots" content="index, follow" />
 
   {/* Open Graph */}
   <meta
     property="og:title"
-    content="WaveParty | Watch Videos Together"
+    content="ShreeWave | Watch Videos Together"
   />
 
   <meta
     property="og:description"
-    content="Create rooms, sync videos, and watch together with friends online using WaveParty."
+    content="Create rooms, sync videos, and watch together with friends online using ShreeWave."
   />
 
   <meta property="og:type" content="website" />
 
   <meta
     property="og:url"
-    content="https://waveparty.vercel.app/"
+    content="https://shreewave.vercel.app/"
+  />
+
+  <meta
+    property="og:image"
+    content="https://shreewave.vercel.app/preview.png"
   />
 
   {/* Twitter */}
@@ -64,7 +69,7 @@ return (
 
   <meta
     name="twitter:title"
-    content="WaveParty | Watch Together"
+    content="ShreeWave | Watch Together"
   />
 
   <meta
@@ -73,19 +78,14 @@ return (
   />
 
   <meta
-  property="og:image"
-  content="https://waveparty.vercel.app/preview.png"
-/>
-
-<meta
-  name="twitter:image"
-  content="https://waveparty.vercel.app/preview.png"
-/>
+    name="twitter:image"
+    content="https://shreewave.vercel.app/preview.png"
+  />
 
   {/* Canonical */}
   <link
     rel="canonical"
-    href="https://waveparty.vercel.app/"
+    href="https://shreewave.vercel.app/"
   />
 </Helmet>
 
@@ -97,7 +97,7 @@ return (
       <div className="home-card">
 
         <h1 className="home-logo">
-          WaveParty
+          ShreeWave
         </h1>
 
         <p className="subtitle">

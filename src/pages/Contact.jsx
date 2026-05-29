@@ -1,77 +1,77 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import { Helmet } from "react-helmet-async";
+
 export default function Contact() {
   return (
-    <><Helmet>
-  <title>Contact WaveParty | Watch Together Support</title>
+    <>
+      <Helmet>
+        <title>Contact ShreeWave | Watch Together Support</title>
 
-  <meta
-    name="description"
-    content="Contact WaveParty for support, feedback, bug reports, or business inquiries."
-  />
+        <meta
+          name="description"
+          content="Contact ShreeWave for support, feedback, bug reports, feature requests, or business inquiries."
+        />
 
-  <meta
-    name="keywords"
-    content="WaveParty contact, watch together support, online watch party help"
-  />
+        <meta
+          name="keywords"
+          content="ShreeWave contact, watch together support, online watch party help, ShreeWave support"
+        />
 
-  <meta name="author" content="WaveParty" />
+        <meta name="author" content="ShreeWave" />
 
-  <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow" />
 
-  {/* Open Graph */}
-  <meta
-    property="og:title"
-    content="Contact WaveParty | Watch Together Platform"
-  />
+        {/* Open Graph */}
+        <meta
+          property="og:title"
+          content="Contact ShreeWave | Watch Together Platform"
+        />
 
-  <meta
-    property="og:description"
-    content="Get in touch with WaveParty for support and feedback."
-  />
+        <meta
+          property="og:description"
+          content="Get in touch with ShreeWave for support, feedback, and inquiries."
+        />
 
-  <meta property="og:type" content="website" />
+        <meta property="og:type" content="website" />
 
-  <meta
-    property="og:url"
-    content="https://waveparty.vercel.app/contact"
-  />
+        <meta
+          property="og:url"
+          content="https://shreewave.vercel.app/contact"
+        />
 
-  {/* Twitter */}
-  <meta name="twitter:card" content="summary_large_image" />
+        {/* Twitter */}
+        <meta
+          name="twitter:card"
+          content="summary_large_image"
+        />
 
-  <meta
-    name="twitter:title"
-    content="Contact WaveParty"
-  />
+        <meta
+          name="twitter:title"
+          content="Contact ShreeWave"
+        />
 
-  <meta
-    name="twitter:description"
-    content="Contact the WaveParty team for support and feedback."
-  />
+        <meta
+          name="twitter:description"
+          content="Contact the ShreeWave team for support and feedback."
+        />
 
-  {/* Canonical */}
-  <link
-    rel="canonical"
-    href="https://waveparty.vercel.app/contact"
-  />
-</Helmet>
- 
+        {/* Canonical */}
+        <link
+          rel="canonical"
+          href="https://shreewave.vercel.app/contact"
+        />
+      </Helmet>
 
-    <div className="page">
+      <div className="page">
+        <h1>Contact ShreeWave</h1>
 
-      <h1>Contact</h1>
-
-      <p className="page-text">
+        <p className="page-text">
           Have questions, feedback, bug reports, or suggestions
-  for WaveParty? Feel free to contact us anytime.
-
-  <br /><br />
-
-         📧 Email: <strong>merestro106@email.com</strong>
-      </p>
-
-    </div></>
+          for ShreeWave? Feel free to contact us anytime.
+          <br />
+          <br />
+          📧 Email: <strong>merestro106@email.com</strong>
+        </p>
+      </div>
+    </>
   );
 }

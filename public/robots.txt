@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://waveparty.vercel.app/sitemap.xml
+Sitemap: https://shreewave.vercel.app/sitemap.xml

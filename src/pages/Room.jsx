@@ -182,7 +182,7 @@ export default function Room() {
     className="room-logo"
     onClick={() => window.location.href = "/"}
   >
-    Wave
+    Shree
   </h2>
 
   <div className="top-actions">

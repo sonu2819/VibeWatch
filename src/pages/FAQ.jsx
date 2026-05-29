@@ -1,43 +1,41 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import { Helmet } from "react-helmet-async";
 
 export default function FAQ() {
   return (
     <>
       <Helmet>
-        <title>FAQ | WaveParty Watch Together</title>
+        <title>FAQ | ShreeWave Watch Together</title>
 
         <meta
           name="description"
-          content="Frequently asked questions about WaveParty watch together platform, synced video playback, live chat, private rooms, and more."
+          content="Frequently asked questions about ShreeWave watch together platform, synced video playback, live chat, private rooms, and more."
         />
 
         <meta
           name="keywords"
-          content="WaveParty FAQ, watch together questions, synced video help, online watch party"
+          content="ShreeWave FAQ, watch together questions, synced video help, online watch party"
         />
 
-        <meta name="author" content="WaveParty" />
+        <meta name="author" content="ShreeWave" />
 
         <meta name="robots" content="index, follow" />
 
         {/* Open Graph */}
         <meta
           property="og:title"
-          content="WaveParty FAQ | Watch Together Platform"
+          content="ShreeWave FAQ | Watch Together Platform"
         />
 
         <meta
           property="og:description"
-          content="Answers to common questions about WaveParty and synced video watching."
+          content="Answers to common questions about ShreeWave and synced video watching."
         />
 
         <meta property="og:type" content="website" />
 
         <meta
           property="og:url"
-          content="https://waveparty.vercel.app/faq"
+          content="https://shreewave.vercel.app/faq"
         />
 
         {/* Twitter */}
@@ -48,21 +46,20 @@ export default function FAQ() {
 
         <meta
           name="twitter:title"
-          content="WaveParty FAQ"
+          content="ShreeWave FAQ"
         />
 
         <meta
           name="twitter:description"
-          content="Frequently asked questions about the WaveParty platform."
+          content="Frequently asked questions about the ShreeWave platform."
         />
 
         {/* Canonical */}
         <link
           rel="canonical"
-          href="https://waveparty.vercel.app/faq"
+          href="https://shreewave.vercel.app/faq"
         />
       </Helmet>
-
 
       <div className="page">
 
@@ -71,17 +68,17 @@ export default function FAQ() {
         <div className="faq-section">
 
           <div className="faq-item">
-            <h3>🎬 What is WaveParty?</h3>
+            <h3>🎬 What is ShreeWave?</h3>
 
             <p>
-              WaveParty is a real-time watch together
+              ShreeWave is a real-time watch together
               platform that lets users sync YouTube
               videos and watch with friends online.
             </p>
           </div>
 
           <div className="faq-item">
-            <h3>💬 Does WaveParty include live chat?</h3>
+            <h3>💬 Does ShreeWave include live chat?</h3>
 
             <p>
               Yes, users can chat together while
@@ -93,7 +90,7 @@ export default function FAQ() {
             <h3>📱 Does it work on mobile?</h3>
 
             <p>
-              Yes, WaveParty works smoothly on both
+              Yes, ShreeWave works smoothly on both
               desktop and mobile devices.
             </p>
           </div>
@@ -119,8 +116,6 @@ export default function FAQ() {
         </div>
 
       </div>
-
-      
     </>
   );
 }
